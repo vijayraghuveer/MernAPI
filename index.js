@@ -11,8 +11,8 @@ const userRoutes = require('./routes/userRoutes')
 const postRoutes = require('./routes/postRoutes')
 const { notFound, errorHandler } = require('./middleware/errorMiddleware')
 const options = {
-  key: fs.readFileSync('./server.key'),
-  cert: fs.readFileSync('./server.cert')
+  key: fs.readFileSync('/home/ubuntu/server.key'),
+  cert: fs.readFileSync('/home/ubuntu/server.cert')
 };
 
 
